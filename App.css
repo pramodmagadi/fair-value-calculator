@@ -1,0 +1,90 @@
+/* App.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    color: #34495e;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Analysis result styles */
+  pre {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  /* Export button styles */
+  button[onClick="handleExportPDF"] {
+    margin-top: 10px;
+    background-color: #2ecc71;
+  }
+  
+  button[onClick="handleExportPDF"]:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .App {
+      padding: 10px;
+    }
+  
+    input, button {
+      font-size: 14px;
+    }
+  }
